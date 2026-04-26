@@ -37,7 +37,6 @@
         button:hover {
             background-color: #2ecc71;
         }
-        a { color: #27ae60; text-decoration: none; margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -50,12 +49,10 @@
         <button onclick="saveSettings()">Зберегти налаштування</button>
     </div>
 
-    <a href="index.html">⬅ Повернутися на головну</a>
-
     <script>
         function saveSettings() {
             const color = document.getElementById('pixelColor').value;
-            alert('Колір ' + color + ' вибрано! (Тут можна додати логіку збереження)');
+            alert('Колір ' + color + ' вибрано!');
         }
     </script>
 
